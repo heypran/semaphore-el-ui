@@ -1,0 +1,14 @@
+{
+  "hosting": [
+    {
+      "target": "testnet",
+      "public": "out",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    },
+    {
+      "target": "mainnet",
+      "public": "out",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    }
+  ]
+}

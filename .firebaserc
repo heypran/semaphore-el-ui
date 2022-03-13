@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "elefria-testnet"
+  },
+  "targets": {
+    "elefria-testnet": {
+      "hosting": {
+        "mainnet": [
+          "elefria-m"
+        ],
+        "testnet": [
+          "elefria-testnet"
+        ]
+      }
+    }
+  }
+}
